@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Profil</title>
+</head>
+<body>
+<style>
+    *{
+        font-family: 'poppins', sans-serif;
+        margin: 10px;
+    }
+.profil{
+    width: 100%;
+    font-size: 18px;
+}
+
+.profil h3{
+    text-decoration: underline;
+}
+
+.profil a{
+    display: flex;
+}
+
+.desc{
+    display: flex;
+}
+
+.vf{
+    display: flex;
+}
+
+.foto{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.foto img{
+    height: 200px;
+    width: 200px;
+}
+
+.linkk a{
+    display: flex;
+    padding: 20px;
+    width: 400px;
+}
+
+</style>
+
+<fieldset>
+    <legend><h3>Directory Profile Page</h3></legend>
+<table class="profil">
+    <tbody>
+        <tr>
+            <td><img src="foto.jpeg" alt="foto" width="300px" height="300px"></td>
+
+            <td>
+                <h1>Profil Name</h1>
+                <br>
+                <p>Nama : Abror Pratama Harahap</p>
+                <br>
+                <p>Alamat : Srengseng Sawah, Jagakarsa, Kota Jakarta Selatan, DKI Jakarta</p>
+                <br>
+                <p>Email : abrorpratamaharahap2004@gmail.com</p>
+                <br>
+                <p>Telepon : 082277408945</p>
+                <br>
+            </td>
+
+            <td>
+                <h3>Categoris</h3>
+                <a href="https://nurulfikri.ac.id/">Perkuliahan</a>
+                <a href="https://github.com/AbrorPratama/TI_05_ABROR_0110223168">Github</a>
+                <a href="https://instagram.com/do.brar?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>
+            </td>
+        </div>
+        </tr>
+    </tbody>
+</table>
+
+<div class="desc">
+    <p>Saya adalah anak pertama dari empat bersaudara, dan minat utama dalam hidup saya adalah bermain game, belajar, dan berolahraga. Sebagai anak sulung, saya selalu merasa tanggung jawab untuk memberikan contoh yang baik kepada adik-adik saya. Namun, di sela-sela tanggung jawab itu, saya menemukan kesenangan sejati dalam bermain game.<br><br> Saya menyukai tantangan dan strategi yang ada dalam berbagai jenis permainan, dan hal ini membantu saya mengasah kemampuan berpikir kreatif dan analitis saya. Selain itu, saya adalah seorang pembelajar yang tekun, selalu berusaha untuk meningkatkan pengetahuan saya di berbagai bidang. Saya juga rajin berolahraga, karena saya percaya bahwa menjaga tubuh sehat adalah kunci untuk menjalani kehidupan yang seimbang dan produktif. Saya berusaha menjalani kehidupan yang aktif, bermain game dengan cerdas, dan terus belajar untuk menjadi pribadi yang lebih baik setiap hari.</p>
+</div>
+
+<div class="vf">
+<div class="vid">
+    <iframe width="auto" height="315" src="https://www.youtube.com/embed/vyoQFLzjFMs?si=IqgGwD4MQ024eKoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="foto">
+    <img src="https://th.bing.com/th/id/OIP.ZWBA-HJS4rN0Vn3ai588AwHaEK?pid=ImgDet&rs=1">
+    <img src="https://media.suara.com/pictures/970x544/2017/04/10/74396-kota-jakarta-selatan-paling-banyak-diburu-oleh-pemburu-properti.jpg">
+    <img src="https://th.bing.com/th/id/OIP.OwvSy-rjdq-4Up61mXyYEwHaE8?pid=ImgDet&rs=1">
+    <img src="https://c.pxhere.com/photos/12/90/buildings_city_city_lights_cityscape_lights_night_skyline_urban-1270013.jpg!d">
+</div>
+<fieldset class="linkk">
+    <legend>
+        <h2>Link Download File</h2>
+    </legend>
+    <a href="https://github.com/AbrorPratama/TI_05_ABROR_0110223168">File 1</a>
+    <a href="https://github.com/AbrorPratama24/praktikum01">File 2</a>
+    <a href="https://drive.google.com/drive/folders/1ESsiOUlQ6JZYtBl-cElnMomxt-PqTKtn">File 3</a>
+    <a href="https://drive.google.com/drive/folders/1CXv4sndvKE_KeWgjsvhInSkX7lHbXPI9">File 4</a>
+</fieldset>
+</div>
+</fieldset>
+</body>
+</html>
